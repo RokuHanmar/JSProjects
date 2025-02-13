@@ -5,7 +5,6 @@ const colour = document.querySelector('.colour');
 
 // Changes the background colour when the button is clicked
 btn.addEventListener('click', function(){
-    // TODO: Generate random number between 0 and 3
     const randomNumber = getRandomNumber();
     document.body.style.backgroundColor = colours[randomNumber];
     colour.textContent = colours[randomNumber];
